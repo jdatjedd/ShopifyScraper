@@ -1,3 +1,7 @@
+""" 
+1.copy the current code into the code editor of your choice to run python. 
+2.In line 122 You insert the url into the inverted commas and run the program with internet and the files will be created in yor folder 
+
 """
 Shopify scraper
 Description: Scrapes products from a Shopify store by parsing products.json and converting it to a pandas DataFrame.
