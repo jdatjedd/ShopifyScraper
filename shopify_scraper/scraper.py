@@ -121,7 +121,7 @@ def json_list_to_df(df, col):
     """
 
     rows = []
-    for index, row in df[col].iteritems():
+    for index, row in df[col].items():
         for item in row:
             rows.append(item)
     df = pd.DataFrame(rows)
